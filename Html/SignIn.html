@@ -2,38 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SignIn</title>
+    <link href="../Style/SignInStyle.css" rel="stylesheet">
 </head>
 <body>
-<form>
-    <div>
-        <label for="usernameID">What is your name?</label><br>
-        <input type="text" id="usernameID">
-    </div>
-    <div>
-        <label for="phoneNumberId">Enter your phone</label><br>
-        <input type="number" id="phoneNumberId">
-    </div>
-    <div>
-        <label for="emailId">Enter your email</label><br>
-        <input type="email" id="emailId">
-    </div>
-    <div>
-        <label for="locationID">Enter your location</label><br>
-        <input type="text" id="locationID">
-    </div>
-    <div>
-        <label for="passwordID">Enter your password</label><br>
-        <input type="password" id="passwordID">
-    </div>
-    <div>
-        <label for="passwordConfirmID">Enter your password again</label><br>
-        <input type="password" id="passwordConfirmID">
-    </div>
-    <div>
-        <input type="submit" value="SignIn"><br>
-        <a href="LogIn.html">LogIn</a>
-    </div>
-</form>
+<div class="container">
+    <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+            <label for="usernameId">What is your name?</label>
+            <input type="text" id="usernameId" placeholder="Enter fullname">
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="phoneNumberId">Enter your phone</label>
+            <input type="number" id="phoneNumberId" placeholder="Enter phone number">
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="emailId">Enter your email</label>
+            <input type="email" id="emailId" placeholder="Enter email">
+            <small></small>
+        </div>
+        <div class="form-control"><!--chua xong-->
+            <label for="locationId">Enter your location</label>
+            <input type="text" id="locationId" placeholder="Enter location">
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="passwordId">Enter your password</label>
+            <input type="password" id="passwordId" placeholder="Enter password">
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="passwordConfirmId">Enter again your password</label>
+            <input type="password" id="passwordConfirmId" placeholder="Enter password">
+            <small></small>
+        </div>
+        <div class="form-control-button">
+            <button>SignIn</button>
+            <a href="LogIn.html">LogIn</a>
+        </div>
+
+
+    </form>
+</div>
 </body>
+<script src="../Javascript/SignIn.js"></script>
 </html>
