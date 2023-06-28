@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: cadetblue;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    background-color: bisque;
+    background-color: darkgray;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     width:  400px;
@@ -23,7 +23,7 @@ body{
 h2{
     text-align:  center;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .form{
@@ -47,9 +47,15 @@ h2{
      font-size: 14px;
      width: 100%;
  }
- .form-control-button{
-     display: inline;
-     border-radius: 5px;
+ .form-control.error small{
+     color: red;
+ }
+ .btn-submit{
      width: 100%;
-     justify-content: space-around;
+     height: 50px;
+     border-radius: 5px;
+     background-color: cadetblue;
+ }
+ .btn-submit:hover{
+     background: #069a;
  }
