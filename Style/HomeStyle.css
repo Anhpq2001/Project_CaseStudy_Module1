@@ -86,18 +86,30 @@ header .icon a:hover{
     flex-wrap: wrap;
     gap: 50px;
 }
-.products .box-container .box  .image input{
-    border: solid;
+.products .box-container .box .image{
     border-radius: 3px;
     width: 200px;
+    height: 240px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
-.products .box-container .box  .image input:hover{
+.products .box-container .box .image img{
+    width: 200px;
+    height: 250px;
+}
+.products .box-container .box .image input{
+    width: 200px;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+}
+.products .box-container .box .image input:hover{
     color: red;
 }
 .products .box-container .box  .image  p{
     text-align: center;
+    font-size: 15px;
+    margin-top: 3px;
 }
 footer{
     background: pink;

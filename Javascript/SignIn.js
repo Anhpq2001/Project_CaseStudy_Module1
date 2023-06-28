@@ -23,7 +23,6 @@ function checkEmpty(listInput){
     let isEmptyValue =  false;
     listInput.forEach(input =>{
         input = input.value;
-
         if(!input){
             showError(input,"Not empty!");
             isEmptyValue = true;
