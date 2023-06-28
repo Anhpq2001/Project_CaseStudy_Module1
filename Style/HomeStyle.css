@@ -11,4 +11,115 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
 }
+section{
+    padding: 2rem 9%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*header*/
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+header.logo span{
+    /*chua xong*/
+}
+header .navbar input{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+    border: solid;
+    border-radius: 3rem;
+}
+header .navbar input:hover{
+    color: pink;
+}
+header .icon a{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+header .icon a:hover{
+    color: pink;
+}
+
+/*home*/
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background: url("../image/banner-shop-hoa-tuoi-nflower.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content h3{
+    font-size: 40px;
+    color: #777777;
+}
+.home .content span{
+    font-size: 20px;
+}
+.products h1{
+    background: pink;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.products .box-container .box  .image input{
+    border: solid;
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.products .box-container .box  .image input:hover{
+    color: red;
+}
+.products .box-container .box  .image  p{
+    text-align: center;
+}
+footer{
+    background: pink;
+}
+footer .information{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+footer .location{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
